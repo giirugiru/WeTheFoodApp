@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="WeTheFoodApp_v1" customModuleProvider="target">
+            <connections>
+                <outlet property="profileImage" destination="i5F-eV-gjB" id="oCB-jT-iHN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-picture" translatesAutoresizingMaskIntoConstraints="NO" id="i5F-eV-gjB">
+                    <rect key="frame" x="107" y="114" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="6m7-1e-gpA"/>
+                        <constraint firstAttribute="width" constant="200" id="B5g-Yt-NqI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gilang Sinawang" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElX-Ve-OFO">
+                    <rect key="frame" x="20" y="334" width="374" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API used: themealdb.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDv-99-QIf">
+                    <rect key="frame" x="20" y="368" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="github.com/giirugiru" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVH-TW-o2K">
+                    <rect key="frame" x="20" y="394" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ElX-Ve-OFO" secondAttribute="trailing" constant="20" id="OKK-Ob-h3H"/>
+                <constraint firstItem="ElX-Ve-OFO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="TNk-8V-gG8"/>
+                <constraint firstItem="ElX-Ve-OFO" firstAttribute="top" secondItem="i5F-eV-gjB" secondAttribute="bottom" constant="20" id="VOn-dS-Zmc"/>
+                <constraint firstItem="LDv-99-QIf" firstAttribute="top" secondItem="ElX-Ve-OFO" secondAttribute="bottom" constant="10" id="YLq-Vp-dJn"/>
+                <constraint firstItem="i5F-eV-gjB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="70" id="b8t-ge-avZ"/>
+                <constraint firstItem="IVH-TW-o2K" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="gql-Iw-Ogu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IVH-TW-o2K" secondAttribute="trailing" constant="20" id="jHJ-jw-pkg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LDv-99-QIf" secondAttribute="trailing" constant="20" id="jW2-j5-ZHH"/>
+                <constraint firstItem="IVH-TW-o2K" firstAttribute="top" secondItem="LDv-99-QIf" secondAttribute="bottom" constant="5" id="kiP-AV-GNX"/>
+                <constraint firstItem="LDv-99-QIf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="td3-qm-4IB"/>
+                <constraint firstItem="i5F-eV-gjB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vzj-cN-QUE"/>
+            </constraints>
+            <point key="canvasLocation" x="20" y="72"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="profile-picture" width="1359" height="1885"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

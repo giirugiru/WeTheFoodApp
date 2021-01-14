@@ -30,9 +30,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ufI-LA-gp6" secondAttribute="trailing" id="p2I-SM-UKQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="HkE-BL-Lws">
-                        <barButtonItem key="rightBarButtonItem" title="Profile" id="mwx-Ha-AOi"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="HkE-BL-Lws"/>
                     <connections>
                         <outlet property="homeTableView" destination="ufI-LA-gp6" id="31X-Nk-wqe"/>
                     </connections>
@@ -49,6 +47,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zyA-Kj-8pu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="1" green="0.36423100576885903" blue="0.31510259611544589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

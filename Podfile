@@ -8,5 +8,6 @@ target 'WeTheFoodApp v1' do
   # Pods for WeTheFoodApp v1
 
 pod 'Alamofire'
+pod 'Kingfisher'
 
 end

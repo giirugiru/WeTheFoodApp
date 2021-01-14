@@ -21,6 +21,12 @@
 		BAE93C1525B01E840017824F /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C1325B01E840017824F /* HomeTableViewCell.xib */; };
 		BAE93C1D25B02C120017824F /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C1B25B02C120017824F /* FoodListViewController.swift */; };
 		BAE93C1E25B02C120017824F /* FoodListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C1C25B02C120017824F /* FoodListViewController.xib */; };
+		BAE93C2225B02D7F0017824F /* FoodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C2025B02D7F0017824F /* FoodListTableViewCell.swift */; };
+		BAE93C2325B02D7F0017824F /* FoodListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C2125B02D7F0017824F /* FoodListTableViewCell.xib */; };
+		BAE93C2B25B03BDB0017824F /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C2925B03BDB0017824F /* FoodDetailViewController.swift */; };
+		BAE93C2C25B03BDB0017824F /* FoodDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C2A25B03BDB0017824F /* FoodDetailViewController.xib */; };
+		BAE93C3025B05D380017824F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C2E25B05D380017824F /* ProfileViewController.swift */; };
+		BAE93C3125B05D380017824F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C2F25B05D380017824F /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,12 @@
 		BAE93C1325B01E840017824F /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		BAE93C1B25B02C120017824F /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
 		BAE93C1C25B02C120017824F /* FoodListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListViewController.xib; sourceTree = "<group>"; };
+		BAE93C2025B02D7F0017824F /* FoodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewCell.swift; sourceTree = "<group>"; };
+		BAE93C2125B02D7F0017824F /* FoodListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListTableViewCell.xib; sourceTree = "<group>"; };
+		BAE93C2925B03BDB0017824F /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		BAE93C2A25B03BDB0017824F /* FoodDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDetailViewController.xib; sourceTree = "<group>"; };
+		BAE93C2E25B05D380017824F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BAE93C2F25B05D380017824F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,8 @@
 			children = (
 				BAE93C1225B01E840017824F /* HomeTableViewCell.swift */,
 				BAE93C1325B01E840017824F /* HomeTableViewCell.xib */,
+				BAE93C2025B02D7F0017824F /* FoodListTableViewCell.swift */,
+				BAE93C2125B02D7F0017824F /* FoodListTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,6 +146,10 @@
 				BAE93BF225B01C1E0017824F /* HomeViewController.swift */,
 				BAE93C1B25B02C120017824F /* FoodListViewController.swift */,
 				BAE93C1C25B02C120017824F /* FoodListViewController.xib */,
+				BAE93C2925B03BDB0017824F /* FoodDetailViewController.swift */,
+				BAE93C2A25B03BDB0017824F /* FoodDetailViewController.xib */,
+				BAE93C2E25B05D380017824F /* ProfileViewController.swift */,
+				BAE93C2F25B05D380017824F /* ProfileViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,9 +215,12 @@
 			files = (
 				BAE93BFB25B01C200017824F /* LaunchScreen.storyboard in Resources */,
 				BAE93C1E25B02C120017824F /* FoodListViewController.xib in Resources */,
+				BAE93C3125B05D380017824F /* ProfileViewController.xib in Resources */,
 				BAE93BF825B01C200017824F /* Assets.xcassets in Resources */,
 				BAE93C1525B01E840017824F /* HomeTableViewCell.xib in Resources */,
 				BAE93BF625B01C1E0017824F /* Main.storyboard in Resources */,
+				BAE93C2325B02D7F0017824F /* FoodListTableViewCell.xib in Resources */,
+				BAE93C2C25B03BDB0017824F /* FoodDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +276,12 @@
 				BAE93C0E25B01C900017824F /* FoodDetailModel.swift in Sources */,
 				BAE93C0725B01C7A0017824F /* AreaModel.swift in Sources */,
 				BAE93C1D25B02C120017824F /* FoodListViewController.swift in Sources */,
+				BAE93C2B25B03BDB0017824F /* FoodDetailViewController.swift in Sources */,
 				BAE93C1425B01E840017824F /* HomeTableViewCell.swift in Sources */,
 				BAE93BF325B01C1E0017824F /* HomeViewController.swift in Sources */,
+				BAE93C3025B05D380017824F /* ProfileViewController.swift in Sources */,
 				BAE93C0B25B01C850017824F /* FoodListModel.swift in Sources */,
+				BAE93C2225B02D7F0017824F /* FoodListTableViewCell.swift in Sources */,
 				BAE93BEF25B01C1E0017824F /* AppDelegate.swift in Sources */,
 				BAE93BF125B01C1E0017824F /* SceneDelegate.swift in Sources */,
 			);
