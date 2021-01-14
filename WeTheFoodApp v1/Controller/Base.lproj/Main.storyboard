@@ -19,38 +19,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ufI-LA-gp6">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="126" id="Kpq-JS-qBa">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="126"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kpq-JS-qBa" id="BN1-SF-XdU">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xqv-LT-77e">
-                                                    <rect key="frame" x="36" y="28" width="140" height="70"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="70" id="gLq-y4-YDT"/>
-                                                        <constraint firstAttribute="width" constant="140" id="h56-Jm-DiO"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOq-1p-g3X">
-                                                    <rect key="frame" x="186" y="53" width="192" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="xqv-LT-77e" firstAttribute="centerY" secondItem="BN1-SF-XdU" secondAttribute="centerY" id="1GX-gq-48x"/>
-                                                <constraint firstItem="IOq-1p-g3X" firstAttribute="leading" secondItem="xqv-LT-77e" secondAttribute="trailing" constant="10" id="8Qj-OP-bXu"/>
-                                                <constraint firstItem="IOq-1p-g3X" firstAttribute="centerY" secondItem="BN1-SF-XdU" secondAttribute="centerY" id="QLW-hE-gO3"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="IOq-1p-g3X" secondAttribute="trailing" constant="16" id="U0z-kV-wcf"/>
-                                                <constraint firstItem="xqv-LT-77e" firstAttribute="leading" secondItem="BN1-SF-XdU" secondAttribute="leadingMargin" constant="16" id="atM-KU-0qY"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,6 +33,9 @@
                     <navigationItem key="navigationItem" id="HkE-BL-Lws">
                         <barButtonItem key="rightBarButtonItem" title="Profile" id="mwx-Ha-AOi"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="homeTableView" destination="ufI-LA-gp6" id="31X-Nk-wqe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

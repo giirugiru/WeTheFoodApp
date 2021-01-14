@@ -1,0 +1,6 @@
+framework module Pods_WeTheFoodApp_v1 {
+  umbrella header "Pods-WeTheFoodApp v1-umbrella.h"
+
+  export *
+  module * { export * }
+}

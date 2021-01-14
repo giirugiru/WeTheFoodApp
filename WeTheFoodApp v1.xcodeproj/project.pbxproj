@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CFDC1CF74E2A3DEA01D826F /* Pods_WeTheFoodApp_v1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3438016CFECE5A3DE48F7BF0 /* Pods_WeTheFoodApp_v1.framework */; };
 		BAE93BEF25B01C1E0017824F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93BEE25B01C1E0017824F /* AppDelegate.swift */; };
 		BAE93BF125B01C1E0017824F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93BF025B01C1E0017824F /* SceneDelegate.swift */; };
 		BAE93BF325B01C1E0017824F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93BF225B01C1E0017824F /* HomeViewController.swift */; };
@@ -16,9 +17,16 @@
 		BAE93C0725B01C7A0017824F /* AreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C0625B01C7A0017824F /* AreaModel.swift */; };
 		BAE93C0B25B01C850017824F /* FoodListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C0A25B01C850017824F /* FoodListModel.swift */; };
 		BAE93C0E25B01C900017824F /* FoodDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C0D25B01C900017824F /* FoodDetailModel.swift */; };
+		BAE93C1425B01E840017824F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C1225B01E840017824F /* HomeTableViewCell.swift */; };
+		BAE93C1525B01E840017824F /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C1325B01E840017824F /* HomeTableViewCell.xib */; };
+		BAE93C1D25B02C120017824F /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE93C1B25B02C120017824F /* FoodListViewController.swift */; };
+		BAE93C1E25B02C120017824F /* FoodListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE93C1C25B02C120017824F /* FoodListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3438016CFECE5A3DE48F7BF0 /* Pods_WeTheFoodApp_v1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTheFoodApp_v1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF70FB3532BA0E7BF84DCD99 /* Pods-WeTheFoodApp v1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTheFoodApp v1.debug.xcconfig"; path = "Target Support Files/Pods-WeTheFoodApp v1/Pods-WeTheFoodApp v1.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D83DDFCDA733F03369F5F8 /* Pods-WeTheFoodApp v1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTheFoodApp v1.release.xcconfig"; path = "Target Support Files/Pods-WeTheFoodApp v1/Pods-WeTheFoodApp v1.release.xcconfig"; sourceTree = "<group>"; };
 		BAE93BEB25B01C1E0017824F /* WeTheFoodApp v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeTheFoodApp v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE93BEE25B01C1E0017824F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAE93BF025B01C1E0017824F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +38,10 @@
 		BAE93C0625B01C7A0017824F /* AreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaModel.swift; sourceTree = "<group>"; };
 		BAE93C0A25B01C850017824F /* FoodListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListModel.swift; sourceTree = "<group>"; };
 		BAE93C0D25B01C900017824F /* FoodDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailModel.swift; sourceTree = "<group>"; };
+		BAE93C1225B01E840017824F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		BAE93C1325B01E840017824F /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		BAE93C1B25B02C120017824F /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		BAE93C1C25B02C120017824F /* FoodListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFDC1CF74E2A3DEA01D826F /* Pods_WeTheFoodApp_v1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141D1320EE9C4B40BC01D7CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF70FB3532BA0E7BF84DCD99 /* Pods-WeTheFoodApp v1.debug.xcconfig */,
+				B5D83DDFCDA733F03369F5F8 /* Pods-WeTheFoodApp v1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B90E28FA409B28256CA70F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3438016CFECE5A3DE48F7BF0 /* Pods_WeTheFoodApp_v1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAE93BE225B01C1E0017824F = {
 			isa = PBXGroup;
 			children = (
 				BAE93BED25B01C1E0017824F /* WeTheFoodApp v1 */,
 				BAE93BEC25B01C1E0017824F /* Products */,
+				141D1320EE9C4B40BC01D7CD /* Pods */,
+				B90E28FA409B28256CA70F2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +119,8 @@
 		BAE93C0425B01C4C0017824F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BAE93C1225B01E840017824F /* HomeTableViewCell.swift */,
+				BAE93C1325B01E840017824F /* HomeTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,6 +130,8 @@
 			children = (
 				BAE93BF425B01C1E0017824F /* Main.storyboard */,
 				BAE93BF225B01C1E0017824F /* HomeViewController.swift */,
+				BAE93C1B25B02C120017824F /* FoodListViewController.swift */,
+				BAE93C1C25B02C120017824F /* FoodListViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAE93BFF25B01C200017824F /* Build configuration list for PBXNativeTarget "WeTheFoodApp v1" */;
 			buildPhases = (
+				D8811451120B27A8D2E0F7B3 /* [CP] Check Pods Manifest.lock */,
 				BAE93BE725B01C1E0017824F /* Sources */,
 				BAE93BE825B01C1E0017824F /* Frameworks */,
 				BAE93BE925B01C1E0017824F /* Resources */,
+				C33A12F65A9F8A855FD1F18C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,12 +196,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE93BFB25B01C200017824F /* LaunchScreen.storyboard in Resources */,
+				BAE93C1E25B02C120017824F /* FoodListViewController.xib in Resources */,
 				BAE93BF825B01C200017824F /* Assets.xcassets in Resources */,
+				BAE93C1525B01E840017824F /* HomeTableViewCell.xib in Resources */,
 				BAE93BF625B01C1E0017824F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C33A12F65A9F8A855FD1F18C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeTheFoodApp v1/Pods-WeTheFoodApp v1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeTheFoodApp v1/Pods-WeTheFoodApp v1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeTheFoodApp v1/Pods-WeTheFoodApp v1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8811451120B27A8D2E0F7B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeTheFoodApp v1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAE93BE725B01C1E0017824F /* Sources */ = {
@@ -172,6 +254,8 @@
 			files = (
 				BAE93C0E25B01C900017824F /* FoodDetailModel.swift in Sources */,
 				BAE93C0725B01C7A0017824F /* AreaModel.swift in Sources */,
+				BAE93C1D25B02C120017824F /* FoodListViewController.swift in Sources */,
+				BAE93C1425B01E840017824F /* HomeTableViewCell.swift in Sources */,
 				BAE93BF325B01C1E0017824F /* HomeViewController.swift in Sources */,
 				BAE93C0B25B01C850017824F /* FoodListModel.swift in Sources */,
 				BAE93BEF25B01C1E0017824F /* AppDelegate.swift in Sources */,
@@ -319,6 +403,7 @@
 		};
 		BAE93C0025B01C200017824F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF70FB3532BA0E7BF84DCD99 /* Pods-WeTheFoodApp v1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +423,7 @@
 		};
 		BAE93C0125B01C200017824F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D83DDFCDA733F03369F5F8 /* Pods-WeTheFoodApp v1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
